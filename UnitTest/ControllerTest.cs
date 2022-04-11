@@ -10,7 +10,6 @@ namespace UnitTest
     {
         private WeatherForecastController controller; 
         private Mock<ILogger<WeatherForecastController>> mock; 
-
         public ControllerTest()
         {
             mock = new Mock<ILogger<WeatherForecastController>>();
