@@ -35,5 +35,17 @@ namespace ChapterSonar.Controllers
             })
             .ToArray();
         }
+
+        private string FeatureX(DateTime date)
+        {
+            if(date != null)
+            {
+                return date.ToString("yyyy");
+            }
+            else 
+            {
+                return DateTime.Now.ToString("yyyy");
+            }
+        }
     }
 }
